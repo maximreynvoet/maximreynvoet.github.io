@@ -106,3 +106,15 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 .cf { zoom: 1; }
 
 #a-title { text-decoration: none; }
+
+.btn-external .icon { opacity: 0.6; background: url("../images/external-link.png") 0 0 no-repeat; }
+
+.btn-download .icon { opacity: 0.6; background: url("../images/download.png") 0 0 no-repeat; }
+
+summary::marker { color: #b5e853; }
+
+.btn { margin-bottom: 25px; }
+
+hr { margin-bottom: 50px; }
+
+footer { background: rgba(0, 0, 0, 0.1); width: 100%; border-top: 1px dashed #b5e853; padding: 20px 0; margin: 0 0 40px 0; }
