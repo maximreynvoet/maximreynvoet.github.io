@@ -111,10 +111,34 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 .btn-download .icon { opacity: 0.6; background: url("../images/download.png") 0 0 no-repeat; }
 
+summary { cursor: pointer; }
+
 summary::marker { color: #b5e853; }
+
+summary:hover { text-decoration: underline; }
 
 .btn { margin-bottom: 25px; }
 
-hr { margin-bottom: 50px; }
+hr { margin-top: 35px; margin-bottom: 40px; }
 
-footer { background: rgba(0, 0, 0, 0.1); width: 100%; border-top: 1px dashed #b5e853; padding: 20px 0; margin: 0 0 40px 0; }
+.education { display: grid; grid-template-columns: 90% 10%; }
+
+footer { background: transparent; width: 100%; border-top: 1px dashed #b5e853; padding: 40px 0 0 0; }
+
+footer h2 { font-size: 18px; font-weight: 300; color: #666; }
+
+socials { width: 70%; display: flex; justify-content: space-between; padding: 0 15%; }
+
+socials .btn { display: inline-block; background: transparent; padding: 8px 2px; border-radius: 50px; border: 2px transparent; border-bottom: 2px transparent; border-top: 2px transparent; color: #666; font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 13px; text-decoration: none; text-shadow: none; box-shadow: none; }
+
+socials .btn:hover { background: none; color: #63c0f5; font-weight: bold; text-decoration: underline; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
+
+.btn-linkedin .icon { opacity: 0.6; background: url("../images/linkedin.png") 0 0 no-repeat; }
+
+.btn-mail .icon { opacity: 0.6; background: url("../images/mail.png") 0 0 no-repeat; }
+
+.btn-pubkey .icon { opacity: 0.6; background: url("../images/lock.png") 0 0 no-repeat; float: left; }
+
+.floatr { display: flex; }
+
+.floatr > div { width: 50%; }

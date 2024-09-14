@@ -3,13 +3,25 @@ layout: default
 ---
 
 # Education
-
-#### Master of Science in Computer Science - Option Secure Software
-KU Leuven, Belgium (2022-2024)
-
-#### Bachelor of Science in Computer Science
-KU Leuven, Belgium (2019-2023) 
-<br/><br/>
+<div class="education">
+    <div> 
+        <h4> Master of Science in Computer Science - Option Secure Software </h4> 
+        <p> KU Leuven, <em> Leuven</em>, Belgium <br/> Grade: Cum laude </p>
+    </div>
+    <div> 
+        <h4> 2022-2024 </h4> 
+    </div>
+</div>
+<p></p>
+<div class="education">
+    <div> 
+        <h4> Bachelor of Science in Computer Science </h4> 
+        <p> KU Leuven, <em> Leuven</em>, Belgium </p>
+    </div>
+    <div> 
+        <h4> 2019-2023 </h4>
+    </div>
+</div>
 * * *
 
 # Projects
