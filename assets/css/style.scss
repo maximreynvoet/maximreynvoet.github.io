@@ -62,6 +62,7 @@ socials .btn:hover { background: none; color: #63c0f5; font-weight: bold; text-d
 .btn-mail .icon { opacity: 0.6; background: url("../images/mail.png") 0 0 no-repeat; }
 .btn-pubkey .icon { opacity: 0.6; background: url("../images/lock.png") 0 0 no-repeat; float: left; }
 .btn-signal .icon { opacity: 0.6; background: url("../images/signal.png") 0 0 no-repeat; float: left; }
+.btn-tryhackme .icon { opacity: 0.6; background: url("../images/tryhackme.png") 0 0 no-repeat; float: left; }
 
 .floatr {
     display: flex;
@@ -69,4 +70,8 @@ socials .btn:hover { background: none; color: #63c0f5; font-weight: bold; text-d
 
 .floatr > div {
     width: 50%;
+}
+
+hg {
+    color: #b5e853;
 }
