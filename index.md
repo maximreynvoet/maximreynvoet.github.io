@@ -3,17 +3,17 @@ layout: default
 ---
 
 # Education
+<img src="assets/images/path.svg" width="50" height="163" style="float:left;margin-top:-3px">
 <div class="education">
     <div> 
         <h4> Master of Science in Computer Science - Option Secure Software </h4> 
-        <p> KU Leuven, <em> Leuven</em>, Belgium <br/> Grade: Cum laude </p>
+        <p> KU Leuven, <em> Leuven</em>, Belgium <br/> Grade: Cum Laude </p>
     </div>
     <div> 
         <h4> 2022-2024 </h4> 
     </div>
-</div>
-<p></p>
-<div class="education">
+    <p></p>
+    <p></p>
     <div> 
         <h4> Bachelor of Science in Computer Science </h4> 
         <p> KU Leuven, <em> Leuven</em>, Belgium </p>
@@ -24,7 +24,7 @@ layout: default
 </div>
 * * *
 
-# Projects
+# Academic Work
 
 #### Bachelor's Thesis
 <details>
