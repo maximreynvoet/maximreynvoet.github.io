@@ -6,6 +6,16 @@
 .btn-external .icon { opacity: 0.6; background: url("../images/external-link.png") 0 0 no-repeat; }
 .btn-download .icon { opacity: 0.6; background: url("../images/download.png") 0 0 no-repeat; }
 
+ul li {
+    margin-left: -21px;
+    list-style-type: "► ";
+    list-style-image: none;
+}
+
+ul li::marker {
+    color: #b5e853;
+}
+
 summary {
     cursor: pointer;
 }
@@ -14,8 +24,12 @@ summary::marker {
     color: #b5e853;
 }
 
-summary:hover {
+summary:hover .underline {
     text-decoration: underline;
+}
+
+summary:hover span {
+    text-decoration: none;
 }
 
 .btn {
@@ -37,7 +51,7 @@ footer { background: transparent; width: 100%; border-top: 1px dashed #b5e853; p
 footer h2 { font-size: 18px; font-weight: 300; color: #666; }
 
 socials {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -55,8 +69,4 @@ socials .btn:hover { background: none; color: #63c0f5; font-weight: bold; text-d
 
 .floatr > div {
     width: 50%;
-}
-
-.rotated {
-    transform: rotate(180deg);
 }
