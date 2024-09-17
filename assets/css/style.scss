@@ -46,9 +46,13 @@ hr {
     grid-template-columns: 90% 10%;
 }
 
-footer { background: transparent; width: 100%; border-top: 1px dashed #b5e853; padding: 40px 0 0 0; }
+footer { background: transparent; width: 100%; border-top: 1px dashed #b5e853; }
 
-footer h2 { font-size: 18px; font-weight: 300; color: #666; }
+footer h2 { font-size: 18px; font-weight: 300; color: #666; margin-top: 40px; }
+
+brackets { color: #666; font-family: Helvetica, Arial, sans-serif; font-size: 18px; }
+brackets:before { content: "["; }
+brackets:after { content: "]"; }
 
 socials {
     width: 100%;
@@ -56,7 +60,7 @@ socials {
     justify-content: space-between;
 }
 
-socials .btn { display: inline-block; background: transparent; padding: 8px 2px; border-radius: 50px; border: 2px transparent; border-bottom: 2px transparent; border-top: 2px transparent; color: #666; font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 13px; text-decoration: none; text-shadow: none; box-shadow: none; }
+socials .btn { display: inline-block; background: transparent; padding: 8px 2px; border-radius: 50px; border: 2px solid transparent; border-bottom: 2px solid transparent; border-top: 2px solid transparent; color: #666; font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 13px; text-decoration: none; text-shadow: none; box-shadow: none; }
 socials .btn:hover { background: none; color: #63c0f5; font-weight: bold; text-decoration: underline; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 .btn-linkedin .icon { opacity: 0.6; background: url("../images/linkedin.png") 0 0 no-repeat; }
 .btn-mail .icon { opacity: 0.6; background: url("../images/mail.png") 0 0 no-repeat; }

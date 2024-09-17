@@ -6,7 +6,7 @@ layout: default
 <img src="assets/images/path.svg" width="50" height="163" style="float:left;margin-top:-3px">
 <div class="education">
     <div> 
-        <h4> Master of Science in Computer Science - Option Secure Software </h4> 
+        <h4> Master of Engineering: Computer Science - Option Secure Software </h4> 
         <p> KU Leuven, <em> Leuven</em>, Belgium <br/> Grade: Cum Laude </p>
     </div>
     <div> 
@@ -15,7 +15,7 @@ layout: default
     <p></p>
     <p></p>
     <div> 
-        <h4> Bachelor of Science in Computer Science </h4> 
+        <h4> Bachelor of Informatics </h4> 
         <p> KU Leuven, <em> Leuven</em>, Belgium </p>
     </div>
     <div> 
